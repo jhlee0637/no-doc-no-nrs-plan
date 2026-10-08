@@ -33,15 +33,7 @@
 # 프로젝트 구성
 ## Codex
 ## OpenRig
-- 멀티 에이전트 오케스트라이제이션 프로그램
-- 전용 Conda 환경: `openrig`; 설치 경로는 각 컴퓨터의 환경에 따라 지정.
-- 설치 버전: OpenRig 0.6.6, Node.js 24.21.0, npm 11.19.0, tmux 3.4.
-- Codex 테스트 프로필: `openrig-addition`; 해당 소유자의 Codex 설정 경로에 구성.
-- 실행 권한: 테스트 작업 폴더와 상태 폴더에 쓰기 허용, 명령 네트워크 차단, 권한 확대 차단.
-- 2026-10-08 검증: 에이전트 실행, 덧셈 메시지 전달, `2 + 3`에 대한 `결과: 5` 응답 확인.
-- 검증 범위: Codex 단일 에이전트 실행과 응답 확인; 다중 에이전트 협업은 미검증.
-- 기본 kernel은 실행하지 않았으며, 테스트 작업 공간은 임시 구성.
-- 설치·검증 결과와 대상 환경의 실행 방법: [OpenRig 인계 문서](docs/ai-generated-openrig-install-verification-handoff.md).
-- 개인화된 경로와 로컬 운영 기록은 Git 제외 대상인 `etc/`에 보관; 외부 공유 시 제외.
+- 개발 에이전트 작업 관리를 위한 도구.
+- 상세 내용: [OpenRig 인계 문서](docs/ai-generated-openrig-install-verification-handoff.md).
 ## Git
 - 두 팀원의 협업
